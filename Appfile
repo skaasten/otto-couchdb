@@ -1,0 +1,9 @@
+application {
+    name = "couchdb"
+    type = "docker-external"
+}
+
+customization {
+    image = "klaemo/couchdb"
+    run_args = "-d -p 5984:5984 klaemo/couchdb"
+}
