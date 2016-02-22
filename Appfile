@@ -4,6 +4,6 @@ application {
 }
 
 customization {
-    image = "klaemo/couchdb"
-    run_args = "-d -p 5984:5984 klaemo/couchdb"
+    image = "klaemo/couchdb:latest"
+    run_args = "-d -p 5984:5984 --name couchdb klaemo/couchdb"
 }
