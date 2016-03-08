@@ -2,7 +2,8 @@ application {
     name = "couchdb"
     type = "docker-external"
 }
-
+blah {
+}
 customization {
     image = "frodenas/couchdb"
     run_args = "-d -p 5984:5984 --name couchdb"
